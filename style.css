@@ -7,23 +7,71 @@
 }
 
 .pos_cen{
-    background-color: skyblue;
-    height: 140px;
+    width 100%;
+    height: 100px;
     border-radius: 1.5rem;
 }
 
 img{
     float: left;
-    width: 7%;
-    padding-left: 20px;
+    width:8%;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    height: 100px;
     padding-top: 10px;
-    height: 120px;
-    
+
+}
+
+#btn{
+    float: right;
+    padding-top: 50%;
+}
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
 }
 
 #h1{
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 200px;
+    font-style: unset;
+    color: rgb(129,88,223);
 }
 
 
@@ -33,56 +81,45 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .menu{
     width: 100%;
-    height: 50px;
+    height: 10px;
     display: flex;
     align-items: center;
-    background-color: skyblue;
-    border-radius: 1.5rem;
-   
 }
 
 #menupart1{
-    width: 30%;
+    width: 40%;
     text-align: center;
+    padding-top: 100px;
    }
 #menupart2{
-    width: 70%;   
+    width: 70%; 
+    padding-top: 100px;  
     text-align: center;
     border-collapse: collapse;
+    padding-left: 260px;
    }
 
 #menupart1 .btn:hover{
     color: orange;
 }
-
-
-.btn{
-    height: 7vmin;
-    width: 15vmin;
-    border-radius: 1rem;
-    box-shadow: black;
-    color: black;
-    padding: 5px;
-    background-color: blue;
-    grid-area: auto;
-    margin-left: 20px;
- }
  
 .btn2{
     background-color: none;
  }
 
  #mn{
-    justify-content: right;
-    
+    justify-content: right;    
     border-radius: 1.5rem;
     padding: 10px;
     height: 7vmin;
     width: 18vmin;
+    color: rgb(129, 88, 223);
+    
 }
 
 .structure{
@@ -90,19 +127,25 @@ img{
 }
 
 .data1{
-    width: 30%;
+    width: 40%;
+    height: 180px;
     text-align: center;
     padding-left: 20px;
     padding-top: 100px;
-   
+    padding-bottom: 5px;
+    
+}
+
+h2{
+    padding-bottom: px;
 }
 
 .data2{
-    width: 800px; 
+    width: 53%; 
     height: 380px;
     position: absolute;
-    left: 550px;
-    top: 230px;
+    left: 700px;
+    top: 250px;
     text-align: center;
     justify-content: right;
 }
@@ -112,53 +155,96 @@ img{
 }
 
  h3{
-    background-color: skyblue;
-    height: 30px;
-   
-    text-align: center;
-}
-
-table, tr, td, th{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-table{
-    width: 100%;
-    height: 15%;
+    background-color: rgb(129,88,223);
+    height: 45px;
     text-align: center;
 }
 
 #color{
-    background-color: skyblue;
+    background-color: rgb(129, 88, 223);
+    height: 5px;
 }
 
-.calculate{
-    height: 7vmin;
-    width: 20vmin;
-    border-radius: 1rem;
-    box-shadow: black;
-    color: black;
-    padding: 5px;
-    background-color: blue;
-    grid-area: auto;
-    margin-left: 20px;
+.data3{
+    float: right;
+    width: 885px;
+    padding-right: 20px;
+    padding-left: 58px;
+    padding-top: 6%;
+}
+
+
+#home{
+    float: right;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+.button {
+    --color: rgb(129,88,223);
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+
+   .cal{
     text-align: center;
-    font-size: 120%;
-}
-.clear{
-    height: 7vmin;
-    width: 20vmin;
-    border-radius: 1rem;
-    box-shadow: black;
-    color: black;
-    padding: 5px;
-    background-color: blue;
-    grid-area: auto;
-    margin-left: 50px;
-    text-align: center;
-    font-size: 120%;
-}
+   }
+   
+   .maindiv{
+    padding-bottom: 100px;
+    margin-top: -20%;
+    right: 500px;
+    height: 550px;
+    background-image: url(https://media.istockphoto.com/id/1418049497/vector/historical-icon-vadodara-city-laxmi-vilas-palace-icon-illustration.jpg?s=612x612&w=0&k=20&c=JutIRy_WZGWfIzqP2ivmpovDvgfcd0XVVEW6Tk0ofik=);
+   }
 
-
-
+   
