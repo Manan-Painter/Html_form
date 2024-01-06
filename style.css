@@ -6,6 +6,7 @@
 }
 
 .pos_cen{
+    display: block;
     width: 100%;
     height: 100px;
     border-radius: 1.5rem;
@@ -42,8 +43,9 @@ img{
 
 
 .container {
+    padding-top: 30px;
     Width: 100%;
-    height: 10vmin;
+    /* height: 10vmin; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,8 +54,8 @@ img{
 
 .menu{
     width: 100%;
-    height: 10px;
-    display: flex;
+    /* height: 10px; */
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -61,14 +63,14 @@ img{
 #menupart1{
     width: 40%;
     text-align: center;
-    padding-top: 100px;
+    /* padding-top: 100px; */
    }
 #menupart2{
-    width: 50%; 
-    padding-top: 150px;  
+    width: 60%; 
+    /* padding-top: 150px;   */
     text-align: center;
-    border-collapse: collapse;
-    padding-left: 290px;
+    /* border-collapse: collapse; */
+    padding-left: 200px;
    }
 
  #mn{
@@ -91,7 +93,7 @@ img{
 
 .data2{
     width: 50%; 
-    height: 380px;
+    /* height: 380px; */
     position: absolute;
     left: 700px;
     top: 250px;
