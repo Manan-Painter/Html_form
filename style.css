@@ -1,5 +1,4 @@
 
-
 #body_main{
     background-color: white;
     text-align: center;
@@ -7,9 +6,10 @@
 }
 
 .pos_cen{
-    width 100%;
+    width: 100%;
     height: 100px;
     border-radius: 1.5rem;
+   
 }
 
 img{
@@ -27,41 +27,7 @@ img{
     padding-top: 50%;
 }
 
-/* CSS */
-.button-89 {
-  --b: 3px;   /* border thickness */
-  --s: .45em; /* size of the corner */
-  --color: #373B44;
-  
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  color: var(--color);
-  --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: .6em;
-  font-size: 16px;
 
-  border: 0;
-
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-89:hover,
-.button-89:focus-visible{
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
-}
-
-.button-89:active {
-  background: var(--color);
-  color: #fff;
-}
 
 #h1{
     text-align: center;
@@ -69,7 +35,7 @@ img{
     justify-content: center;
     align-items: center;
     padding-top: 10px;
-    padding-right: 200px;
+    padding-right: 50px;
     font-style: unset;
     color: rgb(129,88,223);
 }
@@ -88,6 +54,7 @@ img{
     width: 100%;
     height: 10px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -97,29 +64,15 @@ img{
     padding-top: 100px;
    }
 #menupart2{
-    width: 70%; 
-    padding-top: 100px;  
+    width: 50%; 
+    padding-top: 150px;  
     text-align: center;
     border-collapse: collapse;
-    padding-left: 260px;
+    padding-left: 290px;
    }
 
-#menupart1 .btn:hover{
-    color: orange;
-}
- 
-.btn2{
-    background-color: none;
- }
-
  #mn{
-    justify-content: right;    
-    border-radius: 1.5rem;
-    padding: 10px;
-    height: 7vmin;
-    width: 18vmin;
-    color: rgb(129, 88, 223);
-    
+    color:rgb(129,88,223);
 }
 
 .structure{
@@ -136,12 +89,8 @@ img{
     
 }
 
-h2{
-    padding-bottom: px;
-}
-
 .data2{
-    width: 53%; 
+    width: 50%; 
     height: 380px;
     position: absolute;
     left: 700px;
@@ -149,29 +98,48 @@ h2{
     text-align: center;
     justify-content: right;
 }
+
+.data3{
+    width: 50%; 
+    height: 380px;
+    position: absolute;
+    left: 700px;
+    top: 500px;
+    text-align: center;
+    justify-content: right;
+
+
+
+}
 #body_main
 {
     width: 100%;
 }
 
  h3{
-    background-color: rgb(129,88,223);
+    background-color:rgb(129,88,223);
     height: 45px;
     text-align: center;
 }
 
-#color{
-    background-color: rgb(129, 88, 223);
-    height: 5px;
+h4{
+    color:black;
 }
 
-.data3{
-    float: right;
-    width: 885px;
-    padding-right: 20px;
-    padding-left: 58px;
-    padding-top: 6%;
+h1{
+    color: rgb(129,88,223);
 }
+
+h2{
+    background-color: rgb(129,88,223);
+}
+
+#color{
+    background-color:rgb(129,88,223);
+    height: 10px;
+}
+
+
 
 
 #home{
@@ -181,70 +149,130 @@ h2{
     padding-right: 100px;
 }
 
-.button {
-    --color: rgb(129,88,223);
-    padding: 0.8em 1.7em;
-    background-color: transparent;
-    border-radius: .3em;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: .5s;
-    font-weight: 400;
-    font-size: 17px;
-    border: 1px solid;
-    font-family: inherit;
-    text-transform: uppercase;
-    color: var(--color);
-    z-index: 1;
-   }
-   
-   .button::before, .button::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 50px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    border-radius: 50%;
-    z-index: -1;
-    background-color: var(--color);
-    transition: 1s ease;
-   }
-   
-   .button::before {
-    top: -1em;
-    left: -1em;
-   }
-   
-   .button::after {
-    left: calc(100% + 1em);
-    top: calc(100% + 1em);
-   }
-   
-   .button:hover::before, .button:hover::after {
-    height: 410px;
-    width: 410px;
-   }
-   
-   .button:hover {
-    color: rgb(10, 25, 30);
-   }
-   
-   .button:active {
-    filter: brightness(.8);
-   }
+
 
    .cal{
-    text-align: center;
+   justify-content: center;
+    display: flex;
    }
    
    .maindiv{
     padding-bottom: 100px;
-    margin-top: -20%;
+    margin-top: -10%;
     right: 500px;
-    height: 550px;
+    height: 500px;
     background-image: url(https://media.istockphoto.com/id/1418049497/vector/historical-icon-vadodara-city-laxmi-vilas-palace-icon-illustration.jpg?s=612x612&w=0&k=20&c=JutIRy_WZGWfIzqP2ivmpovDvgfcd0XVVEW6Tk0ofik=);
    }
 
    
+   
+  
+  button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  #color1{
+    background-color: rgb(129,88,223);
+  }
+
+  .tbl{
+   height: 20px;
+   width: 80%;
+   display: block;
+   margin: auto;
+   padding-right: 150px;
+   padding-left: 150px;
+   padding-top: 2%;
+   text-align: center;
+}
+
+.calhd{
+    background-color: rgb(129,88,223);
+    height: 45px;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+  
+#footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 53%;
+   
+}
+
+.footer-img{
+    float: inline-start;
+    width:10%;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.img-center{
+    display: flex;
+  justify-content: center;
+}
+
+.btn2 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px;
+    border: 2px solid rgb(129,88,223);
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .btn2::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - -2px);
+    background-color: white ;
+    transition: 0.3s ease-out;
+    transform: scaleY(1);
+  }
+  
+  .btn2::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 50px);
+    background-color: white;
+    transition: 0.3s ease-out;
+    transform: scaleY(1);
+  }
+  
+  .btn2:hover::before {
+    transform: translateY(-25px);
+    height: 0;
+  }
+  
+  .btn2:hover::after {
+    transform: scaleX(0);
+    transition-delay: 0.15s;
+  }
+  
+  .btn2:hover {
+    border: 2px solid black;
+  }
+  
+  .btn2 span {
+    position: relative;
+    z-index: 3;
+  }
+  
+  
