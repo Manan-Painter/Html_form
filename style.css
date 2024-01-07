@@ -14,12 +14,13 @@
 }
 
 img{
-    float: left;
+    /* float: left;
     width:8%;
     padding-left: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
     height: 100px;
-    padding-top: 10px;
+    padding-right: 200px;
+    /* padding-top: 10px; */
 
 }
 
@@ -43,14 +44,14 @@ img{
 
 
 .container {
-    padding-top: 30px;
+    /* padding-top: 30px;
     Width: 100%;
     /* height: 10vmin; */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
-}
+    padding-bottom: 40px; */
+} */
 
 .menu{
     width: 100%;
@@ -61,16 +62,16 @@ img{
 }
 
 #menupart1{
-    width: 40%;
-    text-align: center;
+    /* width: 40%;
+    text-align: center; */
     /* padding-top: 100px; */
    }
 #menupart2{
-    width: 60%; 
+    /* width: 60%;  */
     /* padding-top: 150px;   */
     text-align: center;
-    /* border-collapse: collapse; */
-    padding-left: 200px;
+    /* padding-left: 200px; */
+
    }
 
  #mn{
@@ -81,38 +82,6 @@ img{
     width: 100%;
 }
 
-.data1{
-    width: 40%;
-    height: 180px;
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 100px;
-    padding-bottom: 5px;
-    
-}
-
-.data2{
-    width: 50%; 
-    /* height: 380px; */
-    position: absolute;
-    left: 700px;
-    top: 250px;
-    text-align: center;
-    justify-content: right;
-}
-
-.data3{
-    width: 50%; 
-    height: 380px;
-    position: absolute;
-    left: 700px;
-    top: 500px;
-    text-align: center;
-    justify-content: right;
-
-
-
-}
 #body_main
 {
     width: 100%;
@@ -145,10 +114,10 @@ h2{
 
 
 #home{
-    float: right;
+    /* float: right;
     padding-bottom: 50px;
-    padding-top: 30px;
-    padding-right: 100px;
+    padding-top: 30px; */
+    padding-right: 200px;
 }
 
 
@@ -163,6 +132,7 @@ h2{
     margin-top: -10%;
     right: 500px;
     height: 500px;
+    margin-left: -95px;
     background-image: url(https://media.istockphoto.com/id/1418049497/vector/historical-icon-vadodara-city-laxmi-vilas-palace-icon-illustration.jpg?s=612x612&w=0&k=20&c=JutIRy_WZGWfIzqP2ivmpovDvgfcd0XVVEW6Tk0ofik=);
    }
 
@@ -224,10 +194,10 @@ h2{
 .btn2 {
     position: relative;
     display: inline-block;
-    padding: 15px 15px;
+    padding: 8px 8px;
     border: 2px solid rgb(129,88,223);
     text-transform: uppercase;
-    color: black;
+    color: rgb(129,88,223);
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
@@ -269,7 +239,7 @@ h2{
   }
   
   .btn2:hover {
-    border: 2px solid black;
+    border: 2px solid rgb(129,88,223)k;
   }
   
   .btn2 span {
