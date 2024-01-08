@@ -14,14 +14,8 @@
 }
 
 img{
-    /* float: left;
-    width:8%;
-    padding-left: 50px;
-    padding-bottom: 10px; */
     height: 100px;
     padding-right: 200px;
-    /* padding-top: 10px; */
-
 }
 
 #btn{
@@ -150,41 +144,16 @@ h2{
   }
 
   .tbl{
-   height: 20px;
-   width: 80%;
-   display: block;
-   margin: auto;
-   padding-right: 150px;
-   padding-left: 150px;
-   padding-top: 2%;
    text-align: center;
+   margin-top: 10px;
 }
 
 .calhd{
     background-color: rgb(129,88,223);
-    height: 45px;
-    text-align: center;
-    width: 100%;
-    font-size: large;
     display: flex;
     justify-content: center;
 }
   
-#footer{
-    width: 100%;
-    text-align: center;
-    padding-top: 53%;
-   
-}
-
-.footer-img{
-    float: inline-start;
-    width:10%;
-    padding-left: 10px;
-    padding-bottom: 40px;
-    height: 100px;
-    padding-top: 10px;
-}
 
 .img-center{
     display: flex;
@@ -247,4 +216,23 @@ h2{
     z-index: 3;
   }
   
+  .fotadd{
+   margin-top: ;
+  }
+  
+  .fotbtn{
+    display: flex;
+    justify-content: center;
+  }
+
+  .fotbtn1{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .fotimg{
+    display: flex;
+    justify-content: center; 
+    margin-left: 200px;
+  } */
   
