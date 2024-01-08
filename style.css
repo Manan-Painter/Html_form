@@ -4,7 +4,10 @@
     text-align: center;
  
 }
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .pos_cen{
     display: block;
     width: 100%;
@@ -12,8 +15,10 @@
     border-radius: 1.5rem;
    
 }
-
-img{
+.fut-btn-pad{
+  padding: 0px 6px;
+}
+.img-cus{
     height: 100px;
     padding-right: 200px;
 }
@@ -23,7 +28,9 @@ img{
     padding-top: 50%;
 }
 
-
+.cus-btn{
+  width: 100px;
+}
 
 #h1{
     text-align: center;
